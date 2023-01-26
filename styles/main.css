@@ -1,2 +1,15 @@
 h1 {color: steelblue}
 a {color:crimson}
+
+img {
+    width: 300px;
+    margin: 0 auto;
+    display: block
+}
+
+p {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 1rem
+}

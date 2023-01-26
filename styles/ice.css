@@ -1,0 +1,38 @@
+
+body {
+    background-color: rgb(255, 192, 241);
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.top{
+    text-align: center;
+    color: white;
+}
+
+.top2{
+    color: white;
+}
+
+h1:hover{
+    color: black;
+}
+
+.list{
+    margin-inline-start: 400px;
+    padding-inline-start: 40px;
+}
+
+.Quote{
+    color: white;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+}
