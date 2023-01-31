@@ -1,8 +1,11 @@
-h1 {color: steelblue}
+#container {
+    max-width: 1000px;
+}
+
 a {color:crimson}
 
 img {
-    width: 300px;
+    width: 400px;
     margin: 0 auto;
     display: block
 }
@@ -10,6 +13,30 @@ img {
 p {
     text-align: center;
     width: 400px;
-    margin: 0 auto;
-    font-size: 1rem
+    margin: 5px auto;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: steelblue
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgba(70,130,180,.2);
 }
