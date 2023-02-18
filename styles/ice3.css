@@ -1,0 +1,10 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.text {
+    width: 1000px;
+    grid-column: 1/3;
+}
