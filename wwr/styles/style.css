@@ -230,6 +230,23 @@ main section img {
     grid-template-columns: repeat(10, 1fr);
 }
 
+/* CSS for rivers.html */
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    justify-self: center;
+    padding: 50px;
+}
+
+.rivers-img {
+    
+}
+
+
+
+
+/* CSS for rivers.html */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
