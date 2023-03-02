@@ -235,13 +235,39 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    justify-self: center;
     padding: 50px;
+    align-items: center;
+    row-gap: 70px;
 }
 
 .rivers-img {
-    
+    border: 5px solid #ba2025;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
 }
+
+p {
+    font-family: Bakbak, Bradley Hand, sans-serif;
+    font-size: .8em;
+}
+
+#idaho, #arizona {
+    margin-left: 50px;
+}
+
+#utah {
+    margin-right: 50px;
+}
+
+.rivers-img:hover {
+    opacity: .9;
+    transform: scale(1.1);
+}
+
+.rivers-info h2 {
+    color: #ba2025;
+}
+
 
 
 
