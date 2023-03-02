@@ -45,6 +45,7 @@ main section {
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
+    background-color: #ba2025;
 }
 
 body {
@@ -100,7 +101,6 @@ footer {
     background-color: #ba2025;
     color: white; 
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -163,9 +163,7 @@ footer .social img {
     padding-top: 15px;
 }
 
-.rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
-}
+
 
 .card-img {
     border: 10px solid #ba2025;
@@ -238,7 +236,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    padding: 50px;
+    padding: 50px 50px 50px 0;
     align-items: center;
     row-gap: 70px;
 }
@@ -271,6 +269,9 @@ p {
     color: #ba2025;
 }
 
+#arizona{
+    
+}
 
 
 /* CSS for rivers.html */
