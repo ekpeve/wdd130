@@ -270,6 +270,12 @@ p {
     color: #ba2025;
 }
 
+h1 {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: #ba2025;
+}
 
 /* CSS for rivers.html */
 
