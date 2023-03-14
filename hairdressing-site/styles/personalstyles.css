@@ -1,8 +1,30 @@
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: black;
 }
 
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Lobster Two, Helvetica, sans-serif;
+    padding: 35px;
+    font-size: x-large;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+nav a:hover {
+    background-color: #ff0000;
+    color: white;
+    border-radius: 50%;
+}
 
 #hero-box{
     display: grid;
