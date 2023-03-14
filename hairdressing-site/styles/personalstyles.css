@@ -2,3 +2,27 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+
+
+#hero-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#hero-box img {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+#hero-box h1 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    align-self: self-end;
+}
+
+#hero-box p {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-self: self-start;
+}
