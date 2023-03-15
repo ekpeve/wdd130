@@ -17,13 +17,31 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
 }
 
+
+
 nav a:hover {
-    background-color: #ff0000;
+    background-color: #c08081;
     color: white;
     border-radius: 50%;
+}
+
+.button-link {
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-size: 24px;
+    display: block;
+    margin: 0 auto;
+}
+
+.button:hover {
+    color: #ff0000;
+    background-color: white;
+  }
+
+body{
+    background-color: #c08081;
 }
 
 #hero-box{
@@ -35,6 +53,8 @@ nav a:hover {
     width: 100%;
     grid-column: 1/4;
     grid-row: 1/4;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+
 }
 
 #hero-box h1 {
@@ -47,4 +67,30 @@ nav a:hover {
     grid-column: 3/4;
     grid-row: 2/3;
     align-self: self-start;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#braids-card {
+    grid-column: 1/2;
+}
+
+#crochets-card {
+    grid-column: 2/3;
+}
+
+#cornrows-card {
+    grid-column: 3/4;
+}
+
+#review-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px;
+}
+
+#review-title h2 {
+    text-align: center;
 }
