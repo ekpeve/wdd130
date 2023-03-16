@@ -19,6 +19,9 @@ nav{
     justify-content: space-around;
 }
 
+.logo {
+    height: 100%;
+}
 
 
 nav a:hover {
@@ -27,62 +30,86 @@ nav a:hover {
     border-radius: 50%;
 }
 
-.button-link {
-    border-radius: 12px;
-    transition-duration: 0.4s;
-    font-size: 24px;
+#book {
     display: block;
-    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    
+}
+#book-text {
+    border: 5px black solid;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 20px;
 }
 
-.button:hover {
-    color: #ff0000;
-    background-color: white;
-  }
-
 body{
-    background-color: #c08081;
+    background-color: ;
 }
 
 #hero-box{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    padding-bottom: 150px;
 }
 
 #hero-box img {
     width: 100%;
-    grid-column: 1/4;
+    grid-column: 1/8;
     grid-row: 1/4;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
 
 }
 
-#hero-box h1 {
-    grid-column: 3/4;
+/* #hero-box  {
+    grid-column: 5/7;
     grid-row: 1/2;
-    align-self: self-end;
-}
+    /* align-self: self-end; */
 
-#hero-box p {
-    grid-column: 3/4;
+/* #hero-box p {
+    grid-column: 5/7;
     grid-row: 2/3;
-    align-self: self-start;
-}
+    /* align-self: self-start; */
 
-main {
+
+#slogan-box {
+    background-color: white;
+    color: black;
+    grid-column: 5/7;
+    grid-row: 1/2;
+}
+.main-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-#braids-card {
-    grid-column: 1/2;
+    grid-template-columns: repeat(7, 1fr)
 }
 
-#crochets-card {
+.main-grid h2 {
+    text-align: center;
+}
+
+#braids-card {
     grid-column: 2/3;
 }
 
+#crochets-card {
+    grid-column: 4/5;
+}
+
 #cornrows-card {
-    grid-column: 3/4;
+    grid-column: 6/7;
+}
+
+.home-servicesimage {
+    max-height: 400px;
+    border: 5px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+
+.home-servicesimage:hover {
+    opacity: .9;
+    transform: scale(1.1);
 }
 
 #review-grid {
