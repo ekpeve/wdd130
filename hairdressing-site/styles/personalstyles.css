@@ -44,7 +44,7 @@ nav a:hover {
 }
 
 body{
-    background-color: ;
+    background-color: white;
     margin: 0 auto;
 }
 
@@ -52,7 +52,7 @@ body{
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(10, 1fr);
-    padding-bottom: -50px;
+    padding-bottom: 0px;
 }
 
 #hero-box img {
@@ -155,20 +155,26 @@ h3 {
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 150px auto;
+    padding-top: 5px;
+    height: 80px;
+    padding-right: 1.5vw;
+   display: flex;
     background-color: black;
+    align-items: center;
+    justify-content: right;
+    padding-bottom: 0px;
 }
 
 .social {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    font-family: Lobster Two, Helvetica, sans-serif;
-    /* padding: 35px; */
-    font-size: x-large;
-
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    gap: 10px;
+    
+
+    
 }
+
+.social a img{
+    border-radius: 10%;
+}
+
