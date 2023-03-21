@@ -9,7 +9,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-family: Lobster Two, Helvetica, sans-serif;
-    padding: 35px;
+    padding: 20px;
     font-size: x-large;
 }
 
@@ -41,10 +41,11 @@ nav a:hover {
     border-radius: 25px;
     text-decoration: none;
     padding: 20px;
+    color: #ff0000;
 }
 
 body{
-    background-color: white;
+    /* background-color: white; */
     margin: 0 auto;
 }
 
@@ -161,20 +162,43 @@ footer {
    display: flex;
     background-color: black;
     align-items: center;
-    justify-content: right;
+    /* justify-content: right; */
     padding-bottom: 0px;
+    
 }
 
 .social {
     display: flex;
-    align-items: center;
+    /* align-items: right; */
     gap: 10px;
-    
-
-    
+    justify-content: right;
+    margin-left: 820px
 }
 
 .social a img{
     border-radius: 10%;
+}
+
+#footernav {
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+/* <!-------------------------Services Page----------------------------> */
+#services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    padding: 50px 50px 50px 0;
+    align-items: center;
+    row-gap: 70px;
+}
+
+.services-image {
+    border: 5px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black; 
+    border-radius: 25px;
 }
 

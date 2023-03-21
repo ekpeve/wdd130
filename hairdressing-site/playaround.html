@@ -1,0 +1,434 @@
+<!doctype html>
+<html>
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hair-X-Ceptional | Home</title>
+  <!-- <link rel="stylesheet" href="styles/personalstyles.css" /> -->
+                    
+
+
+ <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+		<style>
+ 
+body{    
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+
+
+        /* body { background-image: url(ur.jpg);} */
+        h1 { margin:150px auto 30px auto; text-align:center; color:#fff;}
+   
+            .hi-slide { position: relative; width: 754px; height: 292px; margin: 115px auto 0; }
+            
+.hi-slide .hi-next,
+.hi-slide .hi-prev 
+            { position: absolute;
+              top: 50%; 
+              width: 40px;
+              height: 40px; 
+              margin-top: -20px;     
+                border-radius: 50px; 
+                 
+                
+              line-height: 40px;
+              text-align: center; 
+              cursor: pointer;
+              background-color: #fff; 
+              color: black;               
+              transition: all 0.6s;
+              font-size: 20px; 
+                font-weight: bold;
+            }
+           .hi-slide .hi-next:hover, 
+            .hi-slide .hi-prev:hover 
+            {
+            opacity: 1; 
+            background-color: #fff;  
+            }
+            
+           .hi-slide .hi-prev { left: -60px; }
+            
+    .hi-slide .hi-prev::before { content: '<'; }
+    .hi-slide .hi-next { right: -60px; }
+    .hi-slide .hi-next::before { content: '>'; }
+    
+            .hi-slide > ul
+                    { 
+                        list-style: none; 
+                        position: relative;
+                        width: 754px; 
+                        height: 292px; 
+                        margin: 0;
+                        padding: 0;
+            }
+            
+            
+        .hi-slide > ul > li {
+            overflow: hidden; 
+            position: absolute; 
+            z-index: 0; 
+            left: 377px;
+            top: 146px; 
+            width: 0; 
+            height: 0; 
+            margin: 0; 
+            padding: 0;
+            border: 3px solid #fff;              
+            background-color: #333; 
+            cursor: pointer; }
+            
+        .hi-slide > ul > li > img { width: 100%; height: 100%; background-position: center;}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* asfasdfasdffffffffffffffffffffffffffffffffff */
+ 
+ 
+ 
+ header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: black;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Lobster Two, Helvetica, sans-serif;
+    padding: 35px;
+    font-size: x-large;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 100%;
+}
+
+
+nav a:hover {
+    background-color: #c08081;
+    color: white;
+    border-radius: 50%;
+}
+
+#book {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    
+}
+#book-text {
+    border: 5px black solid;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+body{
+    /* background-color: white; */
+    margin: 0 auto;
+}
+
+#hero-box{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    padding-bottom: 0px;
+}
+
+#hero-box img {
+    width: 100%;
+    grid-column: 1/21;
+    grid-row: 1/11;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg"); */
+
+}
+
+/* #hero-box  {
+    grid-column: 5/7;
+    grid-row: 1/2;
+    /* align-self: self-end; */
+
+/* #hero-box p {
+    grid-column: 5/7;
+    grid-row: 2/3;
+    /* align-self: self-start; */
+
+
+#slogan-box {
+    background-color: white;
+    color: black;
+    grid-column: 14/20;
+    grid-row: 3/6;
+    text-align: center;
+    box-shadow: gray 10px 10px 15px;
+    border: #ff0000 2px solid;
+}
+
+#slogan-paragraph {
+    margin: 15px;
+    font-size: large;
+}
+
+#slogan {
+    margin: 15px;
+    font-size: 30px;
+    color: #ff0000;
+}
+
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-bottom: 80px;
+}
+
+.main-grid h2 {
+    text-align: center;
+}
+
+#braids-card {
+    grid-column: 2/3;
+}
+
+#crochets-card {
+    grid-column: 4/5;
+}
+
+#cornrows-card {
+    grid-column: 6/7;
+}
+
+.home-servicesimage {
+    max-height: 400px;
+    border: 5px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+
+.home-servicesimage:hover {
+    opacity: .9;
+    transform: scale(1.1);
+}
+
+#review-grid {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    padding: 25px;
+}
+
+#review-title h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: -15px ;
+    margin-left: 10px;
+}
+
+.review {
+    border: 5px solid #c08081;
+    margin-bottom: 10px;
+}
+
+.review-paragraph {
+    margin: 15px 10px 15px 10px;
+}
+
+footer {
+    padding-top: 5px;
+    height: 80px;
+    padding-right: 1.5vw;
+   display: flex;
+    background-color: black;
+    align-items: center;
+    /* justify-content: right; */
+    padding-bottom: 0px;
+    
+}
+
+.social {
+    display: flex;
+    /* align-items: right; */
+    gap: 10px;
+    justify-content: right;
+    margin-left: 820px
+}
+
+.social a img{
+    border-radius: 10%;
+}
+
+/* <!-------------------------Services Page----------------------------> */
+#services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    padding: 50px 50px 50px 0;
+    align-items: center;
+    row-gap: 70px;
+}
+
+.services-image {
+    border: 5px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black; 
+    border-radius: 25px;
+}
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+		</style>
+	</head>
+	<body>
+	
+    <header>
+      <a href="index.html" id="logo_link">
+          <img class="logo" src="hairdressing-site-images/rsz_hair-x-ceptional_logo.png" alt="Hair-X-Ceptional Logo" />
+      </a>
+      <nav>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact Us</a>
+      </nav>
+  </header>
+  <div id="book">
+  <a id="book-text" href="contact.html">BOOK AN APPOINTMENT NOW!!</a>
+  </div>
+  
+
+  <div id="hero">
+      <div id="hero-box">
+        <img
+          id="hero-img"
+          src="hairdressing-site-images/aboutme2_cropped.jpg"
+          alt="Model picture"
+        />
+        <section id="slogan-box">
+          <h1 id="slogan">
+            Transform Your Hair from Ordinary to <br> Hair-X-Ceptional!
+          </h1>
+          <p id="slogan-paragraph">
+            Welcome to Hair-X-Ceptional!
+            Here you can sign up for hairdressing appointments,  view different hair styles that I have made over the years, get information about services I offer, and get to know a little bit about me. I promise that you would have an Hair-X-Ceptional experience that would leave you feeling like a new person with a head-turning hairstyle.
+          </p>
+        </section>
+      </div>
+  </div>
+	
+	<main>
+	
+    <br><br>
+		<div class="slide hi-slide">
+		  <div class="hi-prev "></div>
+			<div class="hi-next "></div>
+			<ul>
+				<li>
+				<img src="aboutme2_opt.jpg" alt="Img 1" /></li>
+				<li><img src="aboutme2_opt.jpg" alt="Img 2" /></li>
+				<li><img src="aboutme2_opt.jpg" alt="Img 3" /></li>
+				<li><img src="aboutme3_opt.jpg" alt="Img 4" /></li>
+				<li><img src="aboutme1_opt.jpg" alt="Img 5" /></li>
+				<li><img src="aboutme2_opt.jpg" alt="Img 6" /></li>
+				<li><img src="aboutme2_opt.jpg" alt="Img 7" /></li>
+                <li><img src="aboutme3_opt.jpg" alt="Img 7" /></li>
+			</ul>
+		</div>
+	
+	</main>
+	
+	
+	<div id="review-title">
+    <h2>REVIEWS</h2>
+  </div>
+  <div id="review-grid">
+    <section class="review">
+      <h3>Candy:</h3>
+      <p class="review-paragraph"> Ever since one of my friends recommended Becky to me I am always super happy with my hair! I have softer hair for my hair type and Becky has taken the time to acknowledge that and give me suggestions with the styles I want to make sure I’m not damaging my hair. I would recommend Becky to anyone who is looking for a stylist that cares about your natural hair and your protective style. 🫶🏾
+        </p>
+    </section>
+    <section class="review">
+      <h3>Tilda:</h3>
+      <p class="review-paragraph"> Becky has been doing my hair for a while now and I love it!  She's always soft with my scalp, her prices are fair and my braids anyways turn out great. 5/5  
+        </p>
+    </section >
+    <section class="review">
+      <h3>Tolu:</h3>
+      <p class="review-paragraph"> In a small space like Rexburg, it's hard to find someone who can take great care of my hair until I found Becky. I started my natural journey about 4 years ago and I’m still trying to learn about ways to take care of my hair. It’s been easier having Becky who gives me tips on what to do with my hair. She also preps my hair very well before braiding it. She’s concerned about taking care of your hair in general and keeping it healthy instead of just getting the hairstyle done.</p>
+    </section >
+    <section class="review">
+      <h3>Brittany:</h3>
+      <p class="review-paragraph"> 5/5  the braids have lasted me longer. I have looked good for the longest amount of time than any other person I’ve gone to. She was super sweet, we weren’t bored the whole time, we had fun while she did my hair and she gave me the full experience of making sure all of the braids looked really nice and not rushed. Definitely gotta be a regular ✨ </p>
+    </section >
+    <section class="review">
+      <h3>Genesis:</h3>
+      <p class="review-paragraph">Becky is super talented and makes you comfortable from the moment she begins doing your hair. She makes great conversation and have been able to experience her work twice now and would highly recommend. 5/5!!</p>
+    </section >
+    <!-- <section id="review-6">
+      <p class="review-paragraph">Eddy: Becky is the best, I really enjoy her doing my hair!</p>
+      ⭐️⭐️⭐️⭐️⭐️⭐️
+      ⭐️!!
+    </section> -->
+  </div>
+  
+  
+  
+  <footer>
+    <!-- <img class="logo" src="hairdressing-site-images/rsz_hair-x-ceptional_logo.png" alt="Hair-X-Ceptional Logo" /> -->
+    <nav id="footernav">
+      <a href="contactus.html">Contact Us</a>
+      <a href="./site-plan.html">Site Plan</a> 
+    </nav> 
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="hairdressing-site-images/facebook.png" alt="fb icon" />
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img src="hairdressing-site-images/twitter.png" alt="twitter icon" />
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <img src="hairdressing-site-images/instagram.png" alt="instagram icon" />
+        </a>
+    </div>
+</footer>
+ 
+		
+		
+		
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.hislide.js" ></script>
+		<script>
+			$('.slide').hiSlide();
+		</script>
+	</body>
+    
+</html>
