@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hair-X-Ceptional | Home</title>
+    <link rel="stylesheet" href="styles/personalstyles.css" />
     <style>
         form {
         /* Center the form on the page */
@@ -12,8 +13,14 @@
         width: 400px;
         /* Form outline */
         padding: 1em;
-        border: 1px solid #ccc;
+        border: 2px solid  #FF5656;
         border-radius: 1em;
+        border: 2px #FF5656 solid;
+        border-radius: 25px;
+        text-decoration: none;
+        padding: 20px;
+        box-shadow: gray 10px 10px 15px;
+        font-size: large;
         }
 
         ul {
@@ -72,7 +79,7 @@
         margin-left: 0.5em;
         }
         #feedback {
-        background-color: white;
+        background-color: rgb(211, 211, 211);
         position: absolute;
         top: 0;
         left: 0;
@@ -86,7 +93,7 @@
     }
 
     body {
-        background-color: #c08081;
+        background-color: white;
     }
     </style>
 </head>
@@ -109,7 +116,10 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <a href="contact.html">BOOK AN APPOINTMENT NOW!</a>
+    <!-- <div id="book">
+        <a id="book-text" href="contact.html">BOOK AN APPOINTMENT NOW!!</a>
+      </div> -->
+
 
     
     <main class="form_area">
@@ -134,59 +144,74 @@
                   
               </ul>
         </form>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="hairdressing-site-images/aboutme3_opt.jpg" alt="My Image" >
+            </div>
+            <div class="flip-card-back">
+              <h1>ABOUT ME</h1>
+              <p>My name is Rebecca Adekunle, but most of my friends call me Becky. As a child, I disovered my passion for hairdressing through playing with dolls. I have been styling hair for for 11 years now, starting when I was just 10 years old by braiding my classmates' hair. Over the years, I have broadened my hairdressing skills, and I am still improving on myself to become better each day.</p>
+              <p>Email: placeholder@gmail.com</p>
+              <p>Phone Number: 123-456-7890</p>
+            </div>
+          </div>
+        </div>
       </main>
-
+      
+<!-- 
       <div id="about-us">
         <section id="aboutus-imagearea">
-            <img id="pic1" src="hairdressing-site-images/aboutme1_opt.jpg" alt="My image" />
+            <img id="my-pic" src="hairdressing-site-images/aboutme1_opt.jpg" alt="My image" />
             <img id="pic2" src="hairdressing-site-images/aboutme2_opt.jpg" alt="My image" />
-            <img id="pic3" src="hairdressing-site-images/aboutme3_opt.jpg" alt="My image" />
-        </section>
+            <img id="pic3" src="hairdressing-site-images/aboutme3_opt.jpg" alt="My image" /> -->
+        <!-- </section>
         <section>
             <h2 id="about-me">ABOUT ME</h2>
             <p>My name is Rebecca Adekunle, but most of my friends call me Becky. As a child, I disovered my passion for hairdressing through playing with dolls. I have been styling hair for for 11 years now, starting when I was just 10 years old by braiding my classmates' hair. Over the years, I have broadened my hairdressing skills, and I am still improving on myself to become better each day. </p>
         </section>
 
 
-      </div>
+      </div> -->
+ 
 
 
 
-<script>
-    // get the feedback div element so we can do something with it.
-    const feedbackElement = document.getElementById('feedback');
-    // get the form so we can read what was entered in it.
-    const formElement = document.forms[0];
-    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
-    formElement.addEventListener('submit', function(e) {
-        // stop the form from doing the default action.
-        e.preventDefault();
-        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-        // make the feedback element visible.
-        feedbackElement.style.display = "block";
-        // add a class to move everything down so our message doesn't cover it.
-        document.body.classList.toggle('moveDown');
-    });
-</script>
 
 
     <footer>
-        <img class="logo" src="hairdressing-site-images/rsz_hair-x-ceptional_logo.png" alt="Hair-X-Ceptional Logo" />
-        <p><a href="contactus.html">Contact Us</a></p>
-        <p><a href="./site-plan.html">Site Plan</a></p>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="hairdressing-site-images/facebook.png" alt="fb icon" />
-              </a>
-              <a href="https://twitter.com" target="_blank">
-                <img src="hairdressing-site-images/twitter.png" alt="twitter icon" />
-              </a>
-              <a href="https://instagram.com" target="_blank">
-                <img src="hairdressing-site-images/instagram.png" alt="instagram icon" />
+      <nav id="footernav">
+        <a href="contactus.html">Contact Us</a>
+        <a href="./site-plan.html">Site Plan</a> 
+      </nav> 
+      <div class="social">
+          <a href="https://facebook.com" target="_blank">
+              <img src="hairdressing-site-images/facebook.png" alt="fb icon" />
             </a>
-        </div>
-        
+            <a href="https://twitter.com" target="_blank">
+              <img src="hairdressing-site-images/twitter.png" alt="twitter icon" />
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <img src="hairdressing-site-images/instagram.png" alt="instagram icon" />
+          </a>
+      </div>
     </footer>
+    <script>
+      // get the feedback div element so we can do something with it.
+      const feedbackElement = document.getElementById('feedback');
+      // get the form so we can read what was entered in it.
+      const formElement = document.forms[0];
+      // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+      formElement.addEventListener('submit', function(e) {
+          // stop the form from doing the default action.
+          e.preventDefault();
+          // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+          feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+          // make the feedback element visible.
+          feedbackElement.style.display = "block";
+          // add a class to move everything down so our message doesn't cover it.
+          document.body.classList.toggle('moveDown');
+      });
+  </script>
 </body>
 </html>
