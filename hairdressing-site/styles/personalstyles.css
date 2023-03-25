@@ -258,6 +258,7 @@ color: #FF5656;
     margin: 0 auto;
     margin-bottom: 100px;
     
+    
   }
   
   /* This container is needed to position the front and back side */
@@ -268,6 +269,7 @@ color: #FF5656;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -282,12 +284,16 @@ color: #FF5656;
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    /* border: #FF5656 2px solid;
+    border-radius: 15px; */
   }
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: #bbb;
     color: black;
+    /* border: #FF5656 2px solid;
+    border-radius: 15px; */
   }
   
   /* Style the back side */
@@ -299,6 +305,8 @@ color: #FF5656;
   
   .flip-card img {
     width: 100%;
+    /* border: #FF5656 2px solid;
+    border-radius: 15px; */
   }
   
   .flip-card-back h1{
