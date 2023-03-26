@@ -43,6 +43,7 @@ div.book {
     background-color: white;
     opacity: 1;
     z-index: 5;
+    /* background-color: #56FFFF; */
 }
 
 
@@ -59,7 +60,7 @@ div.book {
 }
 
 body{
-    /* background-color: white; */
+    /* background-color: #56FFFF; */
     margin: 0 auto;
 }
 
