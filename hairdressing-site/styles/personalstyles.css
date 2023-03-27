@@ -115,6 +115,7 @@ body{
 
 h2, h3 {
     font-family: "Shantell Sans";
+    color: #FF5656;
 }
 
 .main-grid {
@@ -160,6 +161,7 @@ h2, h3 {
 
 #review-title h2 {
     text-align: center;
+    text-decoration: underline;
 }
 
 h3 {
@@ -185,7 +187,7 @@ footer {
     align-items: center;
     /* justify-content: right; */
     padding-bottom: 0px;
-    
+
 }
 
 .social {
@@ -222,7 +224,7 @@ footer {
 .services-image {
     border: 5px solid black;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px black; 
+    box-shadow: 5px 5px 10px black;
     border-radius: 25px;
 }
 
@@ -257,10 +259,10 @@ color: #FF5656;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 100px;
-    
-    
+
+
   }
-  
+
   /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
@@ -269,14 +271,14 @@ color: #FF5656;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    
+
   }
-  
+
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
-  
+
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
     position: absolute;
@@ -287,7 +289,7 @@ color: #FF5656;
     /* border: #FF5656 2px solid;
     border-radius: 15px; */
   }
-  
+
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: #bbb;
@@ -295,28 +297,32 @@ color: #FF5656;
     /* border: #FF5656 2px solid;
     border-radius: 15px; */
   }
-  
+
   /* Style the back side */
   .flip-card-back {
+    /* background-color: black; */
     background-color: #FF5656;
     color: white;
     transform: rotateY(180deg);
   }
-  
+
   .flip-card img {
     width: 100%;
     /* border: #FF5656 2px solid;
     border-radius: 15px; */
   }
-  
+
   .flip-card-back h1{
     margin-bottom: 50px;
     margin-top: 50px;
+    font-family: "Lobster Two";
+    text-decoration: underline;
     color: black;
   }
-  
+
   .flip-card-back p {
     padding-left: 25px;
     padding-right: 25px;
+    font-family: "Crimson Text";
     color: black;
   }
