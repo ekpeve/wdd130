@@ -312,9 +312,11 @@ color: #FF5656;
   .flip-card-back h1{
     margin-bottom: 50px;
     margin-top: 50px;
+    color: black;
   }
   
   .flip-card-back p {
     padding-left: 25px;
     padding-right: 25px;
+    color: black;
   }
