@@ -40,7 +40,7 @@ div.book {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     opacity: 1;
     z-index: 5;
     /* background-color: #56FFFF; */
@@ -53,11 +53,12 @@ div.book {
     text-decoration: none;
     padding: 20px;
     color: white;
-    box-shadow: gray 10px 10px 15px;
+    /* box-shadow: black 10px 10px 15px; */
     font-size: larger;
     font-weight: bolder;
     background-color: #FF5656;
 }
+
 
 body{
     /* background-color: #56FFFF; */
@@ -250,15 +251,30 @@ color: #FF5656;
 
 /* <!----------------------------------Contact Page------------------------------> */
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.form_area {
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+}
+
+#form-grid {
+    padding-left: 100px;
+}
+
+#about-grid {
+    padding-top: 50px;
+    height: 650px
+}
+
 .flip-card {
     background-color: transparent;
     width: 300px;
     height: 444px;
-    border: 1px solid #f1f1f1;
+    /* border: 1px solid #f1f1f1; */
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     text-align: center;
     margin: 0 auto;
     margin-bottom: 100px;
+    margin-bottom: 500px;
 
 
   }
@@ -286,16 +302,16 @@ color: #FF5656;
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
-    /* border: #FF5656 2px solid;
-    border-radius: 15px; */
+    border: #FF5656 2px solid;
+    border-radius: 15px;
   }
 
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: #bbb;
     color: black;
-    /* border: #FF5656 2px solid;
-    border-radius: 15px; */
+    border: #FF5656 3px solid;
+    border-radius: 15px;
   }
 
   /* Style the back side */
@@ -308,8 +324,9 @@ color: #FF5656;
 
   .flip-card img {
     width: 100%;
-    /* border: #FF5656 2px solid;
-    border-radius: 15px; */
+    height: 100%;
+    /* border: #FF5656 2px solid; */
+    border-radius: 15px;
   }
 
   .flip-card-back h1{
@@ -326,3 +343,19 @@ color: #FF5656;
     font-family: "Crimson Text";
     color: black;
   }
+  
+  #hover-text{
+    text-align: center;
+    /* font-family: "Lobster Two"; */
+    color: black;
+    padding-bottom: 10px;
+  }
+  
+  #form-text{
+    text-align: center;
+    /* font-family: "Lobster Two"; */
+    padding-top: 50px;
+    color: black;
+  }
+  
+  
